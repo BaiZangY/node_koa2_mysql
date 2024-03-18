@@ -1,11 +1,11 @@
 const Client = require('mysql-pro');
 const db = new Client({
     mysql:{
-        host:'47.102.147.30',
+        host:'localhost',
         port:3306,
-        database:'yslBlog',
-        user:'ysl',
-        password:'123456'
+        database:'database',
+        user:'user',
+        password:'password'
     }
 })
 
